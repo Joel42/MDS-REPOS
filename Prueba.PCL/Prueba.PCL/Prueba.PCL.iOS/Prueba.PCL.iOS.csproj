@@ -121,11 +121,11 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Prueba.PCL\Prueba.PCL.csproj">
-      <Project>{22B9D651-10C2-4602-8F57-A2EFB6259206}</Project>
-      <Name>Prueba.PCL</Name>
+    <ProjectReference Include="..\..\Prueba.PCL.Core\Prueba.PCL.Core.csproj">
+      <Project>{ea3b4e92-33eb-4758-8b9f-73e2f60f82d2}</Project>
+      <Name>Prueba.PCL.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
